@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./favicon.svg" type="icon/svg">
+    <title>Github Profiles</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header-class">
+        <header>
+            <h1>Github Profile Viewer</h1>
+        </header>
+    </div>
+    <p class="info">
+        Search any user to get their <a class="github" href="https://github.com/">GitHub</a> journey in seconds!
+    </p>
+    <!-- Search Form -->
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a Github User" />
+    </form>
+
+    <!-- Main Content -->
+    <main id="main"></main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Github Profile Viewer. Created by Abid Rafique Khan.</p>
+      <p>
+        Follow me on
+        <a href="https://github.com/AbidKhan01ak">
+            <img src="./github.svg" alt="Github"/>
+        </a> |
+        <a href="https://linkedin.com/in/abid-khan-ak">
+            <img src="./linkedin.svg" alt="LinkedIn"/>
+        </a>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+      integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
